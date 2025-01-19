@@ -1,0 +1,19 @@
+@import url(./nav.css);
+@import url(./header.css);
+@import url(./section.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+:root {
+  --cor-primaria: #1fa4e5;
+  --cor-primaria-transparente: #d3d8fc;
+  --cor-branco: #ffffff;
+  --cor-preto: #101828;
+  --cor-cinza: #667085;
+  --cor-cinza-claro: #d0d5dd;
+  --fonte-principal: Inter;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--fonte-principal);
+}

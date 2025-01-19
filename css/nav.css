@@ -1,0 +1,46 @@
+.nav,
+.nav__lista,
+.nav__botoes {
+  display: flex;
+}
+
+.nav {
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em 0;
+}
+
+.nav__item {
+  margin-right: 2em;
+}
+
+.nav__lista {
+  padding-right: 50%;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--cor-cinza);
+}
+
+.nav__botoes {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  background: none;
+  color: var(--cor-cinza);
+  font-size: 0.9rem;
+}
+
+.botoes__link {
+  text-decoration: none;
+  padding: 1em;
+  color: var(--cor-cinza);
+}
+
+.botoes__cadastro {
+  background: var(--cor-primaria);
+  border-radius: 0.5rem;
+  color: var(--cor-branco);
+}

@@ -1,0 +1,113 @@
+.metricas-container {
+  display: flex;
+  margin: 0 10em;
+}
+
+.metrica__item {
+  display: flex;
+  flex-direction: column;
+  margin: 2em 2em;
+}
+.metrica__titulo {
+  font-size: 3.75rem;
+  color: var(--cor-primaria);
+  font-weight: 600;
+  margin: 0.4em 0;
+}
+
+.metrica__descricao {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0.4em 0;
+}
+
+.metrica__texto {
+  font-size: 1rem;
+  color: var(--cor-cinza);
+  margin-right: 0em;
+  line-height: 1.4em;
+}
+
+.vagas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em 0 1em 0;
+}
+
+.vagas__mensagem {
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 1em;
+  color: var(--cor-branco);
+  background: var(--cor-primaria);
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.vagas__titulo {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.vagas__descricao {
+  font-size: 1.25rem;
+  color: var(--cor-cinza);
+}
+
+.vagas__imagem {
+  border-radius: 2em;
+  margin: 4em 0 4em 0;
+}
+
+.lista-vaga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-vaga {
+  display: flex;
+  flex-direction: row;
+}
+
+.titulo-vaga {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.card-vaga {
+  border: inset 0.1em, rgba(102, 112, 133, 1);
+  border-radius: 0.625rem;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.titulo-item {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.informacoes-vaga {
+  font-size: 1rem;
+
+  padding: 1.5em;
+}
+
+.card-vaga:hover {
+  background: var(--cor-primaria);
+  color: var(--cor-branco);
+}
+
+.depoimentos-card {
+  background: var(cor-primaria);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimentos-mensagem {
+  color: var(--cor-primaria);
+  font-size: 0.875rem;
+}

@@ -4,40 +4,158 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OptimusTech</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="cabecalho">
-      <img
-        src="./images/worldwide 1 (Traced).svg"
-        alt="Logo da Empresa OptimusTech "
-      />
->>>>>>> 99ec570f671fb0024e27e9d5344a2f6ec1d2c2e7
+    <nav class="nav">
+      <img src="./images/logo.svg" alt="Logo da Empresa OptimusTech " />
 
-      <h3 class="cabecalho__titulo-empresa">OptimusTech</h3>
-
-      <ul class="cabecalho__lista">
-        <li class="cabecalho__item">
-          <a href="#" class="cabecalho__link">Home</a>
+      <ul class="nav__lista">
+        <li class="nav__item">
+          <a href="#" class="nav__link">Home</a>
         </li>
-        <li class="cabecalho__item">
-          <a href="#" class="cabecalho__link">Produtos</a>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Produtos</a>
         </li>
-        <li class="cabecalho__item">
-          <a href="#" class="cabecalho__link">Recursos</a>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Recursos</a>
         </li>
-        <li class="cabecalho__item">
-          <a href="#" class="cabecalho__link">Sobre Nós</a>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Sobre Nós</a>
         </li>
       </ul>
 
-      <ul class="cabecalho__botoes">
-        <li class="cabecalho__botoes__item">
-          <a href="#" class="botoes__link">Entrar</a>
-        </li>
-        <li class="cabecalho__botoes__item">
-          <a href="#" class="botoes__link cadastro">Cadastrar</a>
-        </li>
-      </ul>
-    </header>
+      <div class="nav__botoes">
+        <a href="#" class="botoes__link">Entrar</a>
+
+        <a href="#" class="botoes__link botoes__cadastro">Cadastrar</a>
+      </div>
+    </nav>
+    <main>
+      <header class="cabecalho">
+        <span class="cabecalho__sobre">Sobre nós</span>
+        <h1 class="cabecalho__titulo">Por que somos diferentes?</h1>
+        <p class="cabecalho__descricao">
+          Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as
+          empresas de todo o mundo a se concentrarem naquilo que é realmente
+          importante para elas.
+        </p>
+      </header>
+      <section class="metricas-container">
+        <div class="metrica__item">
+          <h2 class="metrica__titulo">400+</h2>
+          <p class="metrica__descricao">Projetos Concluídos</p>
+          <p class="metrica__texto">
+            Nós ajudamos a construir mais de 400 projetos incríveis.
+          </p>
+        </div>
+        <div class="metrica__item">
+          <h2 class="metrica__titulo">100+</h2>
+          <p class="metrica__descricao">Colaboradores</p>
+          <p class="metrica__texto">
+            Temos mais de 100 colaboradores no nosso time que se preocupam com
+            nossos clientes.
+          </p>
+        </div>
+        <div class="metrica__item">
+          <h2 class="metrica__titulo">20k</h2>
+          <p class="metrica__descricao">Downloads</p>
+          <p class="metrica__texto">
+            Nossos projetos que estão disponíveis em lojas já foram baixados
+            mais de 20.000 vezes.
+          </p>
+        </div>
+        <div class="metrica__item">
+          <h2 class="metrica__titulo">500+</h2>
+          <p class="metrica__descricao">Reviews 5 estrelas</p>
+          <p class="metrica__texto">
+            Estamos orgulhosos de contar com mais de 500 reviews 5 estrelas em
+            nossos produtos.
+          </p>
+        </div>
+      </section>
+      <section class="vagas-container">
+        <span class="vagas__mensagem">Vagas abertas!</span>
+        <h2 class="vagas__titulo">Estamos procurando por talentos</h2>
+        <p class="vagas__descricao">
+          Somos uma equipe 100% remota com pessoas do Brasil inteiro.
+        </p>
+
+        <img
+          class="vagas__imagem"
+          src="./images/Imagens-Pessoas.png"
+          alt="Imagem de Pessoas em reunião"
+        />
+      </section>
+      <section class="lista-vaga">
+        <h2 class="titulo-vaga">Design</h2>
+        <div class="item-vaga">
+          <div class="card-vaga">
+            <span class="titulo-item">Product Designer</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$7.000</span>
+            </div>
+          </div>
+          <div class="card-vaga">
+            <span class="titulo-item">UX Designer</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$6.000</span>
+            </div>
+          </div>
+          <div class="card-vaga">
+            <span class="titulo-item">UI Designer</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$5.000</span>
+            </div>
+          </div>
+        </div>
+        <h2 class="titulo-vaga">Desenvolvimento de Software</h2>
+        <div class="item-vaga">
+          <div class="card-vaga">
+            <span class="titulo-item">Desenvolvedor(a) iOS</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$8.000</span>
+            </div>
+          </div>
+          <div class="card-vaga">
+            <span class="titulo-item">Desenvolvedor(a) Front-end</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$7.000</span>
+            </div>
+          </div>
+          <div class="card-vaga">
+            <span class="titulo-item">Desenvolvedor(a) Back-end</span>
+            <div class="informacoes-vaga">
+              <span>Full-time |</span>
+              <span>Faixa salarial: R$8.000</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="depoimentos-container">
+        <div class="depoimentos-card">
+          <span class="depoimentos-mensagem"
+            >Veja o que nossos colaboradores falam sobre nós</span
+          >
+          <h2 class="depoimentos__titulo">
+            OptimusTech se importa com a saúde dos seus colaboradores e sempre
+            procura nos dar todo tipo de auxílio possível.
+          </h2>
+          <img
+            class="depoimentos__imagem"
+            src="./images/Avatar.png"
+            alt="Imagem de Pessoas em reunião"
+          />
+          <p class="depoimentos__descricao">Júlia Castro</p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
