@@ -58,7 +58,7 @@
 
 .vagas__imagem {
   border-radius: 2em;
-  margin: 4em 0 4em 0;
+  margin: 4em 0 2em 0;
 }
 
 .lista-vaga {
@@ -100,14 +100,44 @@
   color: var(--cor-branco);
 }
 
+.depoimentos-container {
+  padding: 1em 21em;
+}
+
 .depoimentos-card {
-  background: var(cor-primaria);
+  background: var(--cor-primaria-transparente);
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 2em;
+  margin-bottom: 2em;
 }
 
 .depoimentos-mensagem {
   color: var(--cor-primaria);
-  font-size: 0.875rem;
+  font-size: 1.1rem;
+  padding: 1em 0;
+  font-weight: 600;
+}
+
+.depoimentos__titulo {
+  font-size: 1.3rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.depoimentos__imagem {
+  padding-bottom: 1em;
+  width: 90px;
+}
+
+.depoimentos__descricao {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.depoimentos__cargo {
+  padding-bottom: 2em;
 }
